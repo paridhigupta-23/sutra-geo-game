@@ -100,24 +100,6 @@ Useful official references:
 - ONDC — Travel & Experiences: https://www.ondc.org/pages/tourism.html
 - Telangana Tourism — Charminar: https://tourism.telangana.gov.in/attractions/charminar
 
-## Run
 
-```bash
-npm start
-```
-
-Run core tests:
-
-```bash
-node tests/sutra.test.js
-```
-
-## Optional backend scaffold
-
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload --port 8000
-```
 
 Set `ANTHROPIC_API_KEY` server-side before enabling the optional Ask Sutra backend connector. Never commit a real API key or put one in browser JavaScript.
